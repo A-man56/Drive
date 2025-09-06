@@ -1,7 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const ejs = require('ejs');
-const userModel = require('./models/userModels');
 
 const app = express();
 app.set("view engine", 'ejs');
